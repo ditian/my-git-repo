@@ -1,0 +1,24 @@
+git init
+# Create a Git repository in the current folder.
+
+git status
+# View the status of each file in a repository.
+
+git add <file>
+# Stage a file for the next commit.
+# Ex. 1: git add index.html
+# Ex. 2: git add index.html orange.html
+
+git commit
+# Commit the staged files with a descriptive message.
+
+git log
+# View a repository’s commit history.
+git log --oneline
+git log --oneline index.html
+
+git config --global user.name "<name>"
+# Define the author name to be used in all repositories.
+
+git config --global user.email <email>
+# Define the author email to be used in all repositories.
