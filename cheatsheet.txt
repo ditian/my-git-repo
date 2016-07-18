@@ -1,5 +1,8 @@
+# More can be found at http://rypress.com/tutorials/git/index
+
 # The "only" difference between a usual directory and a Git-managed directory is the (hidden) .git directory.
-# Three components: 1. the working directory; 2. the staged snapshot; 3. the committed snapshots.   
+# Four components: 1. the working directory; 2. the staged snapshot; 3. the committed snapshots; 
+                   4. development branches.   
 
 git init
 # Create a Git repository in the current folder.
